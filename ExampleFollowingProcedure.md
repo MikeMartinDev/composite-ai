@@ -33,7 +33,19 @@ Setup: Solving a long division problem
   * S1: (10000, 10, one more digit?) > 100
 * S1: (100, 37, greater than?) > yes
   * ??: "Continue/end"
-* WM: (tempR: 100)
+  * WM: (current numerator: 100)
+* S1: ("Long division", "Solve it", step: number on right greater than left, next step) > find number of times number on left fits into number on right
+* S1: (37, 100, how many times fits into?) > [don't know]
+  * S2: "Okay, then I need to figure it out"
+* S1: (how many times a number fits into another, how?) > procedure: review times table for smaller number and choose the largest that is smaller than bigger number
+* S1: (37, times table?) > 37, ...
+* WM: (1: 37) >
+* S1: (37, x2) > [don't know]
+  * S2: "Okay, then I need to figure it out"
+* ... follow subgoal to figure out the times table ...
+  * S1: (74, 100, greater than?) > no
+  * S1: (101, 100, greater than?) > yes
+  * WM: (chosen: 74)
 
 
 
