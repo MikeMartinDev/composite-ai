@@ -48,6 +48,30 @@ Setup: Solving a long division problem
   * WM: (chosen: 74)
 
 
+Observations:
+* The human brain does not learn whole procedures as a single unit of memory. It learns how to recognize what action to take, given the goal (or procedure identity) and the current conditions
+  * It learns to recognize the conditions that represent each step in the procedure and what action needs to be taken next for that step
+  * In this sense, it learns steps individually - it is only by stringing all the steps together that an entire procedure effectively emerges
+  * As a proof of this, talk out, in order, the steps of long division; then, try to recall step 3 or step 4 - you generally won't be able to recall this without first walking through the steps and conditions that come before that step
+* The executive function appears to move toward goals in a stacked or hierarchical fashion
+  * For example, it starts with the goal "solve long division" (goal 1)
+    * Goals: 1
+  * The first step is "find the number on the right that is larger than the one on the left"
+  * This becomes a new sub-goal (goal 1a)
+    * Goals: 1, 1a
+  * Once this is found, that sub-goal (goal 1a) is popped off the stack (considered "finished")
+    * Goals: 1
+  * The next step (for goal 1) is "find the number of times that the left number fits into the right number"; this becomes a new sub-goal (goal 1b)
+    * Goals: 1, 1b
+  * To find the answer to this, perhaps one needs to write out the times table for the number on the left; this becomes a new sub-sub-goal (goal 1b1)
+    * Goals: 1, 1b, 1b1
+  * Once this (goal 1b1) is finished, focus returns to the previous goal (1b)
+    * Goals: 1, 1b
+  * The answer is chosen from the table and now it (goal 1b) too is finished
+    * Goals: 1
+  * etc.
+
+
 
 
 
